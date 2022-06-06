@@ -4,9 +4,11 @@ import Head from 'next/head'
 import Script from 'next/script';
 
 
+
 const NavMenu = () => {
     return (
         <>
+          
             <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="https://bytech.rs/homepage.html">
