@@ -12,7 +12,7 @@ export default function Home({ posts }) {
     <div className="display">
    
       <Head>
-        
+      <script src="https://kit.fontawesome.com/dd4ecbb228.js" crossOrigin="anonymous"></script>
       </Head>
       <div className='landing-blog-desc'>
         <h3>Postani deo naše zajednice!
