@@ -79,11 +79,11 @@ const CommentsForm = ({ slug }) => {
     <div className="bg-white rounded-lg p-8 pb-12 mb-8">
       <h3 className="text-xl mb-8 font-semibold border-b pb-4">Ostavite komentar</h3>
       <div className="grid grid-cols-1 gap-4 mb-4">
-        <textarea value={formData.comment} onChange={onInputChange} className="p-4 outline-none w-full h-40 focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700"  placeholder="Komentar" name="comment" />
+        <textarea value={formData.comment} onChange={onInputChange} className="p-4 outline-none w-full h-40 focus:ring-2 focus:ring-gray-200 bg-gray-200 text-gray-700"  placeholder="Komentar" name="comment" />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
-        <input type="text" value={formData.name} onChange={onInputChange} className="py-2 px-4 outline-none w-full focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700" placeholder="Ime" name="name" />
-        <input type="email" value={formData.email} onChange={onInputChange} className="py-2 px-4 outline-none w-full focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700" placeholder="e-mail" name="email" />
+        <input type="text" value={formData.name} onChange={onInputChange} className="py-2 px-4 outline-none w-full focus:ring-2 focus:ring-gray-200 bg-gray-200 text-gray-700" placeholder="Ime" name="name" />
+        <input type="email" value={formData.email} onChange={onInputChange} className="py-2 px-4 outline-none w-full focus:ring-2 focus:ring-gray-200 bg-gray-200 text-gray-700" placeholder="e-mail" name="email" />
       </div>
       <div className="grid grid-cols-1 gap-4 mb-4">
         <div>

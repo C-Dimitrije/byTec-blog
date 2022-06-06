@@ -29,7 +29,7 @@ const PostCard = ({ post }) => (
     <Image
           unoptimized
           // loader={grpahCMSImageLoader}
-          alt={post.author.name}
+          alt='s'
           height="50px"
           width="50px"
           objectFit='cover'
