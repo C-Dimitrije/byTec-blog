@@ -62,7 +62,12 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="d-flex justify-content-center border-top">
+                    <div className="d-flex justify-content-center align-items-center border-top flex-column py-3">
+                        <p className="color-gray-300">
+                            Designed by <a className='text-white no-underline font-semibold' href="https://www.linkedin.com/in/cvetkovicdimitrije/"
+                              >Dimitrije Cvetković</a> </p>
+                      
+                   
                         <p>&copy; 2022 ByTech
                             DOO. All rights reserved.</p>
                     </div>
